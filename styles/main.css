@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+b{
+    font-family: 'Inter', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Quicksand', sans-serif;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+}
+h3{
+    font-family: 'Quicksand', sans-serif;
+}
+h4{
+    font-family: 'Quicksand', sans-serif;
+}
+h5{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.contenedor{
+    background:rgb(255, 255, 255);  
+    padding: 1em; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+                        "info-card info-card info-card info-card"
+                         " vision      vision   vision    vision"
+                         "objetivo   objetivo  Experiencia Experiencia"
+                         "educacion educacion  Experiencia Experiencia"
+                         "educacion educacion     premios    premios "
+                         "skills     skills       avatar   avatar"
+                         "hobbies  hobbies        avatar      avatar" ;
+
+}
+
+
+
+.info-card{
+    display: grid;
+    grid-area: info-card;
+    background: white;
+}
+
+.info{
+    display: block; 
+}
+
+.name{
+    display: inline-block;
+    margin: 1em;
+    font-size: 1em;
+    text-align: center;
+}
+
+.info-direc{
+    display: inline-block;
+    margin: 1em;
+    font-size: 1em;
+    text-align: center;
+}
+.info-tel{
+    display: inline-block;
+    margin: 1em;
+    font-size: 1em;
+    text-align: center;
+
+}
+.info-email{
+    display: inline-block;
+    margin: 1em;
+    font-size: 1em;
+    text-align: center;
+
+}
+
+
+
+.vision{
+    background: rgb(49, 49, 49);
+    display: grid;
+    grid-area: vision;
+    font-size: 1em;
+    text-align: center;
+}
+.vision-text{
+    color: white;
+    margin: auto;
+    font-size: 1.1em;
+    padding: 3em;
+}
+
+.objetivo{
+    grid-area: objetivo;
+    background: rgb(255, 255, 255);
+    padding: 2em;
+}
+
+.Experiencia{
+
+    background: rgb(255, 255, 255);
+    display: grid;
+    grid-area: Experiencia;
+
+}
+.Experiencia{
+    padding: 1.5em;
+}
+.card-experiencia{
+    padding-top: 1em;
+    margin: 1.5em;
+}
+.card-experiencia-icon{
+    display: inline-block;
+    text-align: center;
+    padding: 0.5em;
+}
+.card-experiencia-info{
+    display: inline-block;
+    padding: 1em;
+    width: 80%;
+    
+}
+
+.educacion{
+    background: rgb(255, 255, 255);
+    display: grid;
+    grid-area: educacion;
+}
+.educacion{
+    padding: 2em;
+}
+.educacion-card{
+    
+    padding: .5em;
+}
+
+.premios{
+    background: rgb(255, 255, 255);
+    grid-area: premios;
+}
+.premios{
+    padding: 2em;
+}
+
+.skills{
+    grid-area: skills;
+    font-size: 1.1em;
+    background: rgb(255, 255, 255);
+}
+.skills{
+    padding: 2em;
+}
+.skills-card{
+    padding: .5em;
+}
+
+.avatar{
+    grid-area: avatar;
+    background: rgb(255, 255, 255);
+    display: grid;
+    text-align: center;
+}
+.avatar{
+    padding: 2em;
+}
+.avatar-card{
+    margin: 10%;
+    padding: 2em;
+    line-height: 2em;
+}
+
+
+.hobbies{
+    grid-area: hobbies;
+    background: rgb(255, 255, 255);
+    
+    
+}
+.hobbies{
+    padding: 1em;
+    display: grid;
+    grid-template-areas: "hobbies-title hobbies-title"
+             "hobbies-container-imageA hobbies-container-imageB"  ;
+
+}
+.hobbies-title{
+    grid-area: hobbies-title;
+    padding: 1em;
+}
+.hobbies-container-imageA{
+    grid-area: hobbies-container-imageA;
+    position: relative;
+    height: 8em;
+    padding: .1em;
+    text-align: center;
+   }
+
+.hobbies-container-imageB{
+    grid-area: hobbies-container-imageB;
+    position: relative;
+    height: 8em;
+    padding: .1em;
+    text-align: center;
+   }
+
+.hobbies-container-imageA img {
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    top: 30%; /* sirve en caso de un div como este, donde tiene una altura definida, en caso de que la altura no este definida esta edición no se pone ; */
+    right: 0; /* se debe usar para que margin 0 auto funcione */
+    left: 0; /* se debe usar para que margin 0 auto funcione */
+    margin: 0 auto; /* Esto lo centra */
+}
+.hobbies-container-imageB img {
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    top: 30%; /* sirve en caso de un div como este, donde tiene una altura definida, en caso de que la altura no este definida esta edición no se pone ; */
+    right: 0; /* se debe usar para que margin 0 auto funcione */
+    left: 0; /* se debe usar para que margin 0 auto funcione */
+    margin: 0 auto; /* Esto lo centra */
+}

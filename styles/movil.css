@@ -1,0 +1,56 @@
+@media only screen and (max-width: 880px) {
+	.contenedor {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+		grid-template-areas:"info-card"
+							"vision"
+							"objetivo"
+							"Experiencia"
+							"educacion"
+							"premios"
+							"skills"
+							"hobbies"
+							"avatar";
+
+	}
+}
+@media only screen and (max-width: 880px) {
+	.display-cards{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 15px;
+		grid-auto-rows:auto;
+	}
+}
+
+
+@media only screen and (max-width: 880px) {
+    .info-card{
+		grid-area: info-card;
+	}
+	.vision{
+		grid-area:vision;
+	}
+	.objetivo{
+		grid-area: objetivo;
+	}
+	.Experiencia{
+		grid-area: Experiencia;
+	}
+	.educacion{
+		grid-area:educacion;
+	}
+	.premios{
+		grid-area: premios;
+	}
+	.skills{
+		grid-area:skills;
+	}
+	.hobbies{
+		grid-area: hobbies;
+	}
+	.avatar{
+		grid-area: avatar;
+	}
+}
