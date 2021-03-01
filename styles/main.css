@@ -44,6 +44,21 @@ h5{
 
 }
 
+.englis-card{
+    display: block;
+    background: rgb(49, 49, 49);
+    color: white;
+    margin:auto;
+    text-align:right;
+    padding-right: 1em;
+}
+
+.englis-card a{
+    color: white;
+}
+.englis-card a:hover{
+    color: whitesmoke;
+}
 
 
 .info-card{
@@ -88,21 +103,22 @@ h5{
 
 .vision{
     background: rgb(49, 49, 49);
-    display: grid;
     grid-area: vision;
-    font-size: 1em;
+    display: grid;
+    padding: 2em;
     text-align: center;
 }
+
 .vision-text{
     color: white;
+    display: grid;
+    font-size: 1.2em;
     margin: auto;
-    font-size: 1.1em;
-    padding: 3em;
 }
 
 .objetivo{
     grid-area: objetivo;
-    background: rgb(255, 255, 255);
+    background:rgb(250, 250, 250);
     padding: 2em;
 }
 
@@ -111,8 +127,37 @@ h5{
     background: rgb(255, 255, 255);
     display: grid;
     grid-area: Experiencia;
-
+    grid-template-areas: " title   title    title "
+                         "XP-N-1 XP-desc-1 XP-desc-1"
+                         "XP-N-2 XP-desc-2 XP-desc-2"
+                         "XP-N-3 XP-desc-3 XP-desc-3"
+                         "XP-N-4 XP-desc-4 XP-desc-4";
 }
+
+
+.XP-N-1 { grid-area: XP-N-1;  
+    margin: auto;
+ 
+}
+.XP-desc-1{grid-area: XP-desc-1;}
+
+.XP-N-2 {grid-area: XP-N-2;
+    margin: auto;
+}
+.XP-desc-2{grid-area: XP-desc-2;}
+
+.XP-N-3 {grid-area: XP-N-3;
+    margin: auto;
+}
+.XP-desc-3{grid-area: XP-desc-3;}
+
+.XP-N-4 {grid-area: XP-N-4;
+    margin: auto;
+}
+.XP-desc-4{grid-area: XP-desc-4;}
+
+
+/*
 .Experiencia{
     padding: 1.5em;
 }
@@ -131,6 +176,7 @@ h5{
     width: 80%;
     
 }
+*/
 
 .educacion{
     background: rgb(255, 255, 255);
@@ -167,7 +213,7 @@ h5{
 
 .avatar{
     grid-area: avatar;
-    background: rgb(255, 255, 255);
+    background:rgb(250, 250, 250);
     display: grid;
     text-align: center;
 }
