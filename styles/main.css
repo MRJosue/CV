@@ -45,7 +45,7 @@ h5{
 }
 
 .englis-card{
-    display: block;
+    display: grid;
     background: rgb(49, 49, 49);
     color: white;
     margin:auto;
@@ -113,7 +113,7 @@ h5{
     color: white;
     display: grid;
     font-size: 1.2em;
-    margin: auto;
+    
 }
 
 .objetivo{
@@ -127,11 +127,12 @@ h5{
     background: rgb(255, 255, 255);
     display: grid;
     grid-area: Experiencia;
-    grid-template-areas: " title   title    title "
-                         "XP-N-1 XP-desc-1 XP-desc-1"
-                         "XP-N-2 XP-desc-2 XP-desc-2"
-                         "XP-N-3 XP-desc-3 XP-desc-3"
-                         "XP-N-4 XP-desc-4 XP-desc-4";
+    grid-template-columns: 70px;
+    grid-template-areas: " title   title    "
+                         "XP-N-1  XP-desc-1 "
+                         "XP-N-2  XP-desc-2 "
+                         "XP-N-3  XP-desc-3 "
+                         "XP-N-4  XP-desc-4 ";
 }
 
 
@@ -225,7 +226,10 @@ h5{
     padding: 2em;
     line-height: 2em;
 }
-
+.avatar img{
+  border-radius: 100%;
+  width: 25em;
+}
 
 .hobbies{
     grid-area: hobbies;
