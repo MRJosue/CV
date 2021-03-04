@@ -158,27 +158,6 @@ h5{
 .XP-desc-4{grid-area: XP-desc-4;}
 
 
-/*
-.Experiencia{
-    padding: 1.5em;
-}
-.card-experiencia{
-    padding-top: 1em;
-    margin: 1.5em;
-}
-.card-experiencia-icon{
-    display: inline-block;
-    text-align: center;
-    padding: 0.5em;
-}
-.card-experiencia-info{
-    display: inline-block;
-    padding: 1em;
-    width: 80%;
-    
-}
-*/
-
 .educacion{
     background: rgb(255, 255, 255);
     display: grid;
@@ -221,11 +200,13 @@ h5{
 .avatar{
     padding: 2em;
 }
+
 .avatar-card{
     margin: 10%;
     padding: 2em;
     line-height: 2em;
 }
+
 .avatar img{
   border-radius: 100%;
   width: 25em;

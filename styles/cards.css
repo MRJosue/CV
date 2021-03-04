@@ -1,6 +1,7 @@
 details[open] summary ~ *{
     animation: open 1s ease-in-out;
 }
+
 @keyframes open
 {
     0%{
@@ -10,19 +11,8 @@ details[open] summary ~ *{
         opacity: 1;
     }
 }
-details summary::-webkit-details-marker{
-    display: none;
-    
-}
-details summary{
-    
-    width: 100%;
-    padding: 1em;
-    position:relative;
-    cursor: pointer;
-}
+
 details summary ::after{
-    content: "+";
     color: black;
     position: absolute;
     font-size: 1.75rem;
@@ -33,29 +23,7 @@ details summary ::after{
     transform-origin: center;
     transition: 200ms linear;
 }
-details[open]summary::after{
-    transform:rotate(35deg);
-    font-size: 2rem;
-    
-}
-
-details summary{
-    outline: 0;
-}
-
-details p{
-    font-size: 0.95rem;
-    margin:0 0 1rem;
-    padding: 1em;
-}
-
-details summary:hover{
-    background: rgb(250, 250, 250);
-    transition: 1s;
-    border: rgb(0, 0, 0) 1px solid;
-}
-details[open]{
-    background: rgb(254, 254, 254);
-    border: rgb(0, 0, 0) 1px solid;
-    margin-bottom: 1em;
+	
+summary::-webkit-details-marker {
+    display: none;
 }
