@@ -102,17 +102,15 @@ h5{
 
 
 .vision{
-    background: rgb(49, 49, 49);
+    background: rgba(0, 0, 0, 0.774);
     grid-area: vision;
     display: grid;
-    padding: 2em;
-    text-align: center;
+    height: 15em;
 }
 
 .vision-text{
     color: white;
-    display: grid;
-    font-size: 1.2em;
+    font-size: 1.7em;
     
 }
 
