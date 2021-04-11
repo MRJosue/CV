@@ -2,9 +2,10 @@
 	.contenedor {
 		display: grid;
 		grid-template-columns: 1fr;
-		grid-gap: 20px;
+		grid-gap: 10px;
 		grid-template-rows: auto;
-		grid-template-areas:"info-card"
+		grid-template-areas:"englis-card"
+							"info-card"
 							"vision"
 							"objetivo"
 							"Experiencia"
@@ -17,17 +18,18 @@
 	}
 }
 @media only screen and (max-width: 880px) {
-	.display-cards{
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-		grid-gap: 15px;
-		grid-auto-rows:auto;
-	}
+
+
 }
 
 
 @media only screen and (max-width: 880px) {
-    .info-card{
+   .englis-card{
+	  
+	   grid-area: englis-card;
+   }
+
+	.info-card{
 		grid-area: info-card;
 	}
 	.vision{
@@ -56,5 +58,33 @@
 	.avatar{
 		grid-area: avatar;
 		background:rgb(250, 250, 250);
+	}
+}
+
+@media only screen and (max-width: 880px) {
+
+	.vision{
+		grid-area: vision;
+		display: grid;
+		height: 11em;
+	}
+	
+	.vision-text{
+		color: white;
+		font-size: 1em;
+		
+	}
+
+	.Experiencia{
+
+		background: rgb(255, 255, 255);
+		display: grid;
+		grid-area: Experiencia;
+		grid-template-columns: 80px auto;
+		grid-template-areas: " title   title    "
+							 "XP-N-1  XP-desc-1 "
+							 "XP-N-2  XP-desc-2 "
+							 "XP-N-3  XP-desc-3 "
+							 "XP-N-4  XP-desc-4 ";
 	}
 }

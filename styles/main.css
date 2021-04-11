@@ -32,8 +32,8 @@ h5{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    grid-template-areas:
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas:"englis-card englis-card englis-card englis-card "
                         "info-card info-card info-card info-card"
                          " vision      vision   vision    vision"
                          "objetivo   objetivo  Experiencia Experiencia"
@@ -46,11 +46,13 @@ h5{
 
 .englis-card{
     display: grid;
+    grid-area: englis-card;
     background: rgb(49, 49, 49);
     color: white;
     margin:auto;
     text-align:right;
     padding-right: 1em;
+    
 }
 
 .englis-card a{
@@ -116,7 +118,7 @@ h5{
 
 .objetivo{
     grid-area: objetivo;
-    background:rgb(250, 250, 250);
+    background:rgb(254, 254, 254);
     padding: 2em;
 }
 
@@ -125,7 +127,7 @@ h5{
     background: rgb(255, 255, 255);
     display: grid;
     grid-area: Experiencia;
-    grid-template-columns: 70px;
+    grid-template-columns: 80px;
     grid-template-areas: " title   title    "
                          "XP-N-1  XP-desc-1 "
                          "XP-N-2  XP-desc-2 "
@@ -191,7 +193,7 @@ h5{
 
 .avatar{
     grid-area: avatar;
-    background:rgb(250, 250, 250);
+    background:rgb(254, 254, 254);
     display: grid;
     text-align: center;
 }
