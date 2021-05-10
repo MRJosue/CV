@@ -25,6 +25,10 @@ h5{
     font-family: 'Quicksand', sans-serif;
 }
 
+body{
+    display: grid;
+}
+
 
 .contenedor{
     background:rgb(255, 255, 255);  
@@ -32,9 +36,7 @@ h5{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    grid-auto-rows: minmax(50px, auto);
-    grid-template-areas:"englis-card englis-card englis-card englis-card "
-                        "info-card info-card info-card info-card"
+    grid-template-areas:"info-card info-card info-card info-card"
                          " vision      vision   vision    vision"
                          "objetivo   objetivo  Experiencia Experiencia"
                          "educacion educacion  Experiencia Experiencia"
@@ -44,35 +46,12 @@ h5{
 
 }
 
-.englis-card{
-    
-    grid-area: englis-card;
-    display: grid;
-    background: rgb(49, 49, 49);
-    color: white;
-
-    text-align:right;
-    padding-right: 1em;
-    
-}
-
-.englis-card a{
-    color: white;
-}
-.englis-card a:hover{
-    color: whitesmoke;
-}
-
-
 .info-card{
     display: grid;
     grid-area: info-card;
     background: white;
 }
 
-.info{
-    display: block; 
-}
 
 .name{
     display: inline-block;
@@ -105,15 +84,17 @@ h5{
 
 
 .vision{
-    background: rgba(0, 0, 0, 0.774);
+    background: rgb(0, 0, 0);
     grid-area: vision;
     display: grid;
-    height: 15em;
+    color: white;
 }
 
 .vision-text{
+    
     color: white;
-    font-size: 1.7em;
+    font-size: 1.2em;
+    padding: 1em;
     
 }
 
@@ -128,34 +109,21 @@ h5{
     background: rgb(255, 255, 255);
     display: grid;
     grid-area: Experiencia;
-    grid-template-columns: 80px;
-    grid-template-areas: " title   title    "
-                         "XP-N-1  XP-desc-1 "
-                         "XP-N-2  XP-desc-2 "
-                         "XP-N-3  XP-desc-3 "
-                         "XP-N-4  XP-desc-4 ";
+    grid-template-areas: " title "
+                         " XP-desc-1 "
+                         " XP-desc-2 "
+                         " XP-desc-3 "
+                         " XP-desc-4 ";
+    padding: 2.5em;
 }
 
 
-.XP-N-1 { grid-area: XP-N-1;  
-    margin: auto;
- 
-}
 .XP-desc-1{grid-area: XP-desc-1;}
 
-.XP-N-2 {grid-area: XP-N-2;
-    margin: auto;
-}
 .XP-desc-2{grid-area: XP-desc-2;}
 
-.XP-N-3 {grid-area: XP-N-3;
-    margin: auto;
-}
 .XP-desc-3{grid-area: XP-desc-3;}
 
-.XP-N-4 {grid-area: XP-N-4;
-    margin: auto;
-}
 .XP-desc-4{grid-area: XP-desc-4;}
 
 
@@ -194,7 +162,7 @@ h5{
 
 .avatar{
     grid-area: avatar;
-    background:rgb(254, 254, 254);
+    background:rgb(255, 255, 255);
     display: grid;
     text-align: center;
 }
@@ -210,7 +178,7 @@ h5{
 
 .avatar img{
   border-radius: 100%;
-  width: 25em;
+  width: 24em;
 }
 
 .hobbies{

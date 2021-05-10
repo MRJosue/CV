@@ -1,0 +1,137 @@
+{
+    "Info":[
+        {
+            "nombre":"Josue Cardona",
+            "Job":"PHP Developer",
+            "Location":"Estado de Mexico Nicolas Romero.",
+            "Tel":"55-82-82-61-59",
+            "Email":"ingjosue.cardona@gmail.com",
+            "Lema":"Nunca pares de aprender"
+         }
+    ],
+
+    "Desc":[
+        {
+            "ParrafoA":"Soy un programador independiente con 23 años de edad que reside en el estado de mexico. Me apasiona todo lo que tiene que ver con computadoras, servidores, progamacion web y ERP. Me encanta programar y poder facilitar el trabajo de otros."
+        }
+
+    ],
+    
+    "Objetivo":[
+        {
+            "ObjetivoA":"Llegar a desarrollar aplicaciones que faciliten la vida diaria de las personas, ayudando a la administración diaria y el ahorro. Me gustaría poder desarrollar aún más mi capacidad para hacer programas y aplicaciones en cualquier entorno, ampliar mi número de lenguajes de programación manejados en especial pyhton y JS. mi conocimiento en idiomas y dominar el inglés. Profesionalmente, me gustaría perfilarme como desarrollador de Bakend y poder resolver problemas complejos de programación."
+        }
+    ],
+
+
+    "Experiencia":[
+    {
+        "Empresa":"Sykes",
+        "tiempo":"julio del 2019 en la actualidad",
+        "Puesto":"Tecnico: Soporte tecnico lv 1",
+        "desc":"Administracion de usarios de dominio, administracion de plataformas y resolucion de problemas de base de datos"
+    },
+    {
+        "Empresa":"Domo Educativo",
+        "tiempo":"Agosto del 2019 - julio del 2020 ",
+        "Puesto":"Tecnico: Desarrollador PHP",
+        "desc":"Soporte técnico nivel 2, administración de servidores y desarrollo de aplicaciones web, administración de ERP y programas de respaldo de información."
+    }
+    
+    ],
+
+    "Educacion":[
+        {
+            "titulo":"Curso de GIT y GITHUB",
+            "Periodo":"2019 - 2020",
+            "Institucion":"PLATZI",
+            "Aprendisaje":"Administración de repositorios y ramas de datos."
+        },
+        {
+            "titulo":"Ruta de Desarrollo de Backend con PHP",
+            "Periodo":"2019 - 2021",
+            "Institucion":"PLATZI",
+            "Aprendisaje":"Desarrollo en php, Larabel, eloquent, MVC, TWIG. "
+        },
+        {
+            "titulo":"Ingeniería en Sistemas Informáticos",
+            "Periodo":"2005 - 2008",
+            "Institucion":"Universidad Fidel Velázquez - Edo Mx, El tráfico",
+            "Aprendisaje":"Diseño y análisis de sistemas de tecnologías de la información multiplataforma, mantenimiento preventivo y correctivo de equipos de cómputo, administrador de redes informáticas y servidores."
+        }
+    ],
+
+    "Proyectos Personales":[
+        {
+            "titulo":"Siad web",
+            "Institucion":"SIAD Mantenimiento industrial",
+            "Desc":"Este sitio web esta construido con html y css"
+        },
+        {
+            "titulo":"Siad web",
+            "Institucion":"SIAD Mantenimiento industrial",
+            "Desc":"Este sitio web esta construido con html y css"
+        },
+        {
+            "titulo":"Siad web",
+            "Institucion":"SIAD Mantenimiento industrial",
+            "Desc":"Este sitio web esta construido con html y css"
+        }
+    ],
+    "skills":[
+        {
+            "Title":"Git - 95 %",
+            "valor":"95",
+            "value":95
+        },
+        {
+            "Title":"Html - 95 %",
+            "valor":"95",
+            "value":95
+        },
+        {
+            "Title":"CSS - 95 %",
+            "valor":"95",
+            "value":95
+        },
+        {
+            "Title":"Js - Jquery - 95 %",
+            "valor":"95",
+            "value":95
+        },
+        {
+            "Title":"PHP - 95 %",
+            "valor":"95",
+            "value":95
+        },
+        {
+            "Title":"mysql - 95 %",
+            "valor":"95",
+            "value":95
+        }
+    ],
+
+    "Otros intereses":[
+        {
+            "Musica":[
+                {
+                    "Nombre":"Harry Potter y la piedra filosofal",
+                    "Autor":"J.K Rowling",
+                    "link":"https://www.youtube.com/watch?v=lIVD8VhyRiY"
+                },
+                {
+                    "Nombre":"Aprender PHP,MySQL y JS",
+                    "Autor":"Robin Nixon",
+                    "link":"https://www.youtube.com/watch?v=esCMPi8WkzY&list=RDGMEMYH9CUrFO7CfLJpaD7UR85wVMesCMPi8WkzY&start_radio=1"
+                }
+            ],
+            "Libros":[
+                {
+                    "Nombre":"La senda del perdedor",
+                    "Autor":"Charles Bukowski",
+                    "link":"https://www.youtube.com/watch?v=_nF3AyJPkeI"
+                }
+            ]
+        }
+    ]
+}

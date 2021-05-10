@@ -18,21 +18,50 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--Se agrega el cdn de jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
 </head>
 <body>
+    
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portafolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">CV
+              <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Notas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Productos</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  
+  
 <div class="contenedor">
-        <div class="englis-card">
-            <p><a href="#" onclick="alert('!WEB en proceso!')" >read me in english</a></p> 
-        </div> 
+
      
         <div class="info-card">
             <div class="info">
-                <div class="name">
+                <div class="name" id="name">
                     <h1>Josue Cardona</h1>
                     <h5>PHP Developer</h5>
                 </div>
-                <div class="info-direc">
+                <div class="info-direc" id="info-direc">
                     <i class="fa fa-home" aria-hidden="true">Estado de Mexico Nicolas Romero.</i>
                 </div>
                 <div class="info-tel">
@@ -45,19 +74,14 @@
         </div>
 
         <div class="vision">
-                <div class="vision-container">
-                    <div class="overlay">
-                        <div class="vision-text">
-                            <p>
-                            Soy un programador independiente con 23 años de edad que reside en el estado de mexico.
-                            Me apasiona todo lo que tiene que ver con computadoras, servidores, progamacion web y ERP.</Br>
-                            Me encanta programar y poder facilitar el trabajo de otros.</p>
-                        </div>
-                            <video onloadedmetadata="this.muted=true" autoplay loop>    
-                                <source src="./videos/Blurred Video of Scripts Being Typed.mp4">
-                            </video>
-                    </div>
+                <div class="vision-text">
+                    <p>
+                        Soy un programador independiente con 23 años de edad que reside en el estado de mexico.
+                        Me apasiona todo lo que tiene que ver con computadoras, servidores, progamacion web y ERP.</Br>
+                        Me encanta programar y poder facilitar el trabajo de otros.
+                    </p>
                 </div>
+                            
             
         </div>
             
@@ -79,11 +103,6 @@
                 <h2>Experiencia</h2>
             </div>
               
-    
-                <div class="XP-N-1">
-                    <h4>6</h4>
-                    <p>Meses</p> 
-                </div>
                 <div class="XP-desc-1">
                     <details>
                         <summary><h4>SYKES S.A. de C.V</h4></summary>
@@ -95,12 +114,6 @@
                     </details>
                 </div>
                
-               
-
-                <div class="XP-N-2">
-                    <h4>6</h4>
-                    <p>Meses</p> 
-                </div>
                 <div class="XP-desc-2">
                     <details>
                         <summary><h4>Domo Educativo S.A. de C.V</h4></summary>
@@ -114,12 +127,6 @@
                     </details>
                 </div>
                
-               
-             
-                <div class="XP-N-3">
-                    <h4>6</h4>
-                    <p>Meses</p> 
-                </div>
                 <div class="XP-desc-3">
                     <details>
                         <summary><h4>Power Hit S.A. de C.V.</h4></summary>
@@ -131,12 +138,6 @@
                     </details>
                 </div>
                
-               
-             
-                <div class="XP-N-4">
-                    <h4>1</h4>
-                    <p>año</p> 
-                </div>
                 <div class="XP-desc-4">
                     <details>
                         <summary><h4>SIAD S.A. de C.V</h4></summary>
@@ -302,5 +303,8 @@
 
       
     </div>
+    <!--Script app js-->
+    <script src="./js/App.js"></script>
+
 </body>
 </html>
