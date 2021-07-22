@@ -54,21 +54,17 @@
     "Educacion":[
         {
             "titulo":"Curso de GIT y GITHUB",
+            "Id":"ca",
             "Periodo":"2019 - 2020",
             "Institucion":"PLATZI",
             "Aprendisaje":"Administración de repositorios y ramas de datos."
         },
         {
             "titulo":"Ruta de Desarrollo de Backend con PHP",
+            "Id":"cb",
             "Periodo":"2019 - 2021",
             "Institucion":"PLATZI",
             "Aprendisaje":"Desarrollo en php, Larabel, eloquent, MVC, TWIG. "
-        },
-        {
-            "titulo":"Ingeniería en Sistemas Informáticos",
-            "Periodo":"2005 - 2008",
-            "Institucion":"Universidad Fidel Velázquez - Edo Mx, El tráfico",
-            "Aprendisaje":"Diseño y análisis de sistemas de tecnologías de la información multiplataforma, mantenimiento preventivo y correctivo de equipos de cómputo, administrador de redes informáticas y servidores."
         }
         
     ],
