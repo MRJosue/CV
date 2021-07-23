@@ -52,7 +52,7 @@
     ],
 
     "Educacion":[
-        {
+        {   "short":"GIT y GITHUB",
             "titulo":"Curso de GIT y GITHUB",
             "Id":"ca",
             "Periodo":"2019 - 2020",
@@ -60,6 +60,7 @@
             "Aprendisaje":"Administración de repositorios y ramas de datos."
         },
         {
+           "short":"PHP Backend",
             "titulo":"Ruta de Desarrollo de Backend con PHP",
             "Id":"cb",
             "Periodo":"2019 - 2021",

@@ -34,8 +34,8 @@ console.log("document rady");
             });
             $.each(datos.Educacion,function(index, obj){
               
-                $("#educacion-title").append('<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#'+obj.Id+'">'+obj.titulo+'</a></li>');
-                $("#myTabContent").append('<div class="tab-pane fade" id="'+obj.Id+'"><h4>'+obj.titulo+'</h4><p>'+obj.Periodo+'</br><h6>'+obj.Institucion+'</h6>'+obj.Aprendisaje+'</p></div>');
+                $("#educacion-title").append('<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#'+obj.Id+'">'+obj.short+'</a></li>');
+                $("#myTabContent").append('<br/><div class="tab-pane fade" id="'+obj.Id+'"><h4>'+obj.titulo+'</h4><p>'+obj.Periodo+'</br><h6>'+obj.Institucion+'</h6>'+obj.Aprendisaje+'</p></div>');
                 
 
             });
