@@ -7,12 +7,10 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/cards.css">
-
+    <link rel="stylesheet" href="./styles/hovercard.css">
     <link rel="stylesheet" href="./styles/movil.css">
 
     <link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.min.css">
-
-  
     
     <link rel="stylesheet" href="./styles/font-awesome-4.7.0/css/font-awesome.css">
    
@@ -23,6 +21,7 @@
 
     <!--Se agrega el cdn de jquery-->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 <body>
@@ -163,10 +162,7 @@
                         <br/><h1>Josue Cardona</h1><br/><br/>
                         <h3>PHP Developer</h3><br/>
                         <h4>Nunca pares de aprender</h4>
-                        <div class="form-check form-switch">
-                          <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-                          
-                        </div>
+
                     </div>
              </div>
         </div>
@@ -175,14 +171,74 @@
                <div class="hobbies-title">
                 <h2>Otros intereses</h2>
                </div> 
-                <div class="hobbies-container-imageA">
-                    <img src="./images/icons8-music-208.png" alt="">
-                    <h4> Musica</h4>
+               <div class="hobbies-container-imageA">
+                  <div class="container">
+                        <div class="row">
+
+                             <!-- Primera Carta -->
+                          <div class="col-md-6">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p><img class=" img-fluid" src="./images/icons8-music-208.png" alt="Songs "></p>
+                                                <h4 class="card-title">Musica</h4>
+      
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Musica</h4>
+                                                <p class="card-text" id="Musica"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+
+                        <!-- fin / Primera Carta -->
+                        <!-- Segunda Carta -->
+
+                          <div class="col-md-6">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p><img class=" img-fluid" src="./images/icons8-news-208.png"" alt="songs"></p>
+                                                <h4 class="card-title">Lectura</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Lectura</h4>
+                                                <p class="card-text" id="Libros"></p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+
+                        <!-- fin segunda Carta -->
+
+
+                        </div>
+
+
+                  </div>
+                  
                 </div>
-                <div class="hobbies-container-imageB">
-                    <img src="./images/icons8-news-208.png" alt="">
-                    <h4>Lectura</h4>
-                </div>
+
+
+               
 
         </div>
 
@@ -194,3 +250,20 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

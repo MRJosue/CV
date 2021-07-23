@@ -39,6 +39,19 @@ console.log("document rady");
                 
 
             });
+
+            $.each(datos.Musica,function(index, obj){
+              
+                $("#Musica").append('<a href="'+obj.link+'"target="_blank">'+obj.Nombre+' - '+obj.Autor+'</a></br></br>');
+                
+            });
+            
+            $.each(datos.Libros,function(index, obj){
+              
+                $("#Libros").append('<a href="'+obj.link+'"target="_blank">'+obj.Nombre+' - '+obj.Autor+'</a></br></br>');
+                
+            });
+
         });
         
 });

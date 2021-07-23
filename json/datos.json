@@ -123,27 +123,40 @@
         }
     ],
 
-    "Otros intereses":[
+    "Musica":[
         {
-            "Musica":[
-                {
-                    "Nombre":"Harry Potter y la piedra filosofal",
-                    "Autor":"J.K Rowling",
-                    "link":"https://www.youtube.com/watch?v=lIVD8VhyRiY"
-                },
-                {
-                    "Nombre":"Aprender PHP,MySQL y JS",
-                    "Autor":"Robin Nixon",
-                    "link":"https://www.youtube.com/watch?v=esCMPi8WkzY&list=RDGMEMYH9CUrFO7CfLJpaD7UR85wVMesCMPi8WkzY&start_radio=1"
-                }
-            ],
-            "Libros":[
-                {
-                    "Nombre":"La senda del perdedor",
-                    "Autor":"Charles Bukowski",
-                    "link":"https://www.youtube.com/watch?v=_nF3AyJPkeI"
-                }
-            ]
+            "Nombre":" Stay The Night ",
+            "Autor":"Claptone",
+            "link":"https://www.youtube.com/watch?v=esCMPi8WkzY"
+        },
+        {
+            "Nombre":"Bôa",
+            "Autor":"Duvet",
+            "link":"https://www.youtube.com/watch?v=K00pcctFIuY&list=RDMM"
+        },
+        {
+            "Nombre":"Coupe DeVille",
+            "Autor":"Shakey Graves",
+            "link":"https://www.youtube.com/watch?v=OIMdxcioGYM&list=RDMM&index=3"
+        }
+    ],
+
+    "Libros":[
+        {
+            "Nombre":"La senda del perdedor",
+            "Autor":"Charles Bukowski",
+            "link":"https://www.youtube.com/watch?v=_nF3AyJPkeI"
+        },
+        {
+            "Nombre":"Harry Potter y la piedra filosofal",
+            "Autor":"J.K Rowling",
+            "link":"https://www.youtube.com/watch?v=lIVD8VhyRiY"
+        },
+        {
+            "Nombre":"Aprender PHP,MySQL y JS",
+            "Autor":"Robin Nixon",
+            "link":"https://www.youtube.com/watch?v=esCMPi8WkzY&list=RDGMEMYH9CUrFO7CfLJpaD7UR85wVMesCMPi8WkzY&start_radio=1"
         }
     ]
+
 }
