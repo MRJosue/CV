@@ -6,48 +6,42 @@
             "Location":"Estado de Mexico Nicolas Romero.",
             "Tel":"55-82-82-61-59",
             "Email":"ingjosue.cardona@gmail.com",
-            "Lema":"Nunca pares de aprender"
+            "Lema":"Se parte"
          }
     ],
 
     "Desc":[
         {
-            "ParrafoA":"Soy un programador independiente con 24 años de edad que reside en el estado de mexico. Me apasiona todo lo que tiene que ver con computadoras, servidores, progamacion web y ERP. Me encanta programar y poder facilitar el trabajo de otros."
+            "ParrafoA":"Soy un programador independiente con 25 años de edad que reside en el estado de mexico. Me apasiona todo lo que tiene que ver con desarrollo, servidores, progamacion web y ERP. Me encanta programar y poder facilitar el trabajo de otros."
         }
 
     ],
     
     "Objetivo":[
         {
-            "ObjetivoA":"Llegar a desarrollar aplicaciones que faciliten la vida diaria de las personas, ayudando a la administración diaria y el ahorro. Me gustaría poder desarrollar aún más mi capacidad para hacer programas y aplicaciones en cualquier entorno, ampliar mi número de lenguajes de programación manejados en especial pyhton y JS. mi conocimiento en idiomas y dominar el inglés. Profesionalmente, me gustaría perfilarme como desarrollador de Bakend y poder resolver problemas complejos de programación."
+            "ObjetivoA":"Llegar a desarrollar aplicaciones que faciliten la vida diaria de las personas, ayudando a la administración.  ampliar mi número de lenguajes de programación manejados. mi conocimiento en idiomas y dominar el inglés. Profesionalmente, me gustaría perfilarme como desarrollador Senior de Bakend y poder resolver problemas complejos de programación."
         }
     ],
 
 
     "Experiencia":[
     {
+        "Empresa":"Infotec S.A. de C.V",
+        "tiempo":"Noviembre del 2021 en la actualidad",
+        "Puesto":"Desarrollador PHP JR",
+        "desc":"Diseño de sitemas de administracion con bases de datos relacionales. diseño de uml <br/> resolucion de problemas de base de datos <br/> uso de  visio 2019 para modelado uml"
+    },
+    {
         "Empresa":"Sykes S.A. de C.V",
-        "tiempo":"Julio del 2019 en la actualidad",
+        "tiempo":"Julio del 2019 en la Noviembre del 2021",
         "Puesto":"Tecnico: Soporte tecnico lv 1",
-        "desc":"Diseño de sitemas we con bases de datos relacionales. diseño de uml <br/>Administracion de usarios de dominio, administracion de plataformas y resolucion de problemas de base de datos <br/> uso de  visio 2019 para modelado uml"
+        "desc":"Diseño de sitemas con bases de datos relacionales. diseño de uml <br/>Administracion de usarios de dominio, administracion de plataformas y resolucion de problemas de base de datos <br/> uso de  visio 2019 para modelado uml"
     },
     {
         "Empresa":"Domo Educativo S.A. de C.V",
         "tiempo":"Agosto del 2019 - julio del 2020 ",
         "Puesto":"Tecnico: Desarrollador PHP",
         "desc":"Soporte técnico nivel 2, administración de servidores y desarrollo de aplicaciones web, administración de ERP y programas de respaldo de información."
-    },
-    {
-        "Empresa":"Power Hit S.A. de C.V",
-        "tiempo":"Diciembre 2018 - Julio 2019",
-        "Puesto":"Técnico: Desarrollador PHP ",
-        "desc":"Diseño y modelado de diagramas uml <br/> diseño y mantenimiento de sitemas web de administracion "
-    },
-    {
-        "Empresa":"SIAD S.A. de C.V",
-        "tiempo":"Enero 2018 - Diciembre 2018",
-        "Puesto":"Programador JR",
-        "desc":"Diseño y desarrollo de sitios web, diseño de diseños industriales, soporte técnico y programas de respaldo."
     }
     ],
 
@@ -78,16 +72,9 @@
             "Diseño":"Aqui va el proceso de diseño del sitio"
         },
         {
-            "titulo":"Dental web",
-            "Institucion":"SIAD Mantenimiento industrial",
-            "Desc":"Este sitio web esta construido con html y css",
-            "Diseño":"Aqui va el proceso de diseño del sitio"
-        },
-        {
-            "titulo":"Remi Web",
-            "Institucion":"SIAD Mantenimiento industrial",
-            "Desc":"Este sitio web esta construido con html y css",
-            "Diseño":"Aqui va el proceso de diseño del sitio"
+            "titulo":"JR web",
+            "Institucion":"JR Herreria",
+            "Desc":"Este sitio web esta construido con html y css desarrollado para dar a conocer la marca de la empresa <br/><a href='http://jrherreria.com/'>Ir al sitio</a>"
         }
     ],
     "skills":[
@@ -160,3 +147,6 @@
     ]
 
 }
+
+
+
