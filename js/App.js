@@ -28,7 +28,10 @@ console.log("document rady");
 
             });
             $.each(datos.Proyectos,function(index, obj){
-                $("#Proyectos").append("<div class='educacion-ifo'><h3>"+obj.titulo+"</h3><h5>"+obj.Institucion+"</h5><p>"+obj.Desc+"<p></div>");
+
+                mybtn = '<button type="button" class="btn btn-light" data-toggle="modal" data-target="#dialogo1">Abrir ventana de diálogo</button>';
+
+                $("#Proyectos").append("<div class='educacion-ifo'><h3>"+obj.titulo+"</h3><h5>"+obj.Institucion+"</h5><p>"+obj.Desc+"<p><div>"+ mybtn+"</div></div>");
                 
 
             });
